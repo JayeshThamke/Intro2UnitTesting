@@ -6,41 +6,52 @@ Points for introduction to unit testing of Nodejs based micro-services
 - Lot of pre-test configurations and manual settings
 - Jenkins will help us
 - Reliable source code
-- How much enough?
+- How much is enough?
 
 ### Test deliverables and measurements
 - Test reports and pass-fail numbers
 - Coverage determies health of unit tests and project
+- Code quality goals and commitments
 
 ### Concepts
-- SUT (System/ Source_code Unter Test)
-- Fakes
-- Mocks
-- Spies
-- Proxy Dependency Injection
+- Unit Test Candidate
+- Test Doubles include:
+- Stub Objects 
+- Spy Objects
+- Fake Objects
+- Dummy Objects
+- Dependency Overriding
 
 ### Node Package Dependencies
+- ESLint: Static Testing Tool
 - Mocha: Test Framework
 - Karma: Test Runner
-- Sinon: Mocking, Spying, Faking Library
+- Sinon: Test Doubles Library
 - Chai: Assertion library for TDD and BDD strategy
 - Proxyquire: Library for overrides the depedencies
 
-
-### Test Specifications Writing Format
+### Test Specifications Format
 - Describe, Context, 
 - before, beforeEach, 
 - after, afterEach, 
 - it, 
 - prefix - 'x' for skipping unit tests
 
-### Synchronous code testing
+### Unit Testing: Synchronous Code Base
 
 
-### Asynchronous code testing
+### Unit Testing: Asynchronous Code Base
 
 
-### Testing the JS Promises
+### Unit Testing: JS Promises
 
 
 ### Jenkins Job and Pipeline
+- Overview
+
+#### Misc
+- Controlling Responses with Stubs
+- Stubbing custom responses
+- Observing the methods are called
+- Verifying behaviour of method called
+- mocha.opts
