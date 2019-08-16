@@ -54,4 +54,3 @@ Points for introduction to unit testing of Nodejs based micro-services
 - Stubbing custom responses
 - Observing the methods are called
 - Verifying behaviour of method called
-- mocha.opts
